@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5fdaff6f19c4cbf615a9f370c4769ad",
+    "content-hash": "b8fb5ca47222a5540bc388880d13cce4",
     "packages": [
         {
             "name": "brick/math",
@@ -3393,6 +3393,51 @@
                 }
             ],
             "time": "2023-11-08T05:53:05+00:00"
+        },
+        {
+            "name": "sahapranta/laravel-roadmap",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "./../laravel-roadmap",
+                "reference": "5e06b0853c486b36e240248eef7aa2171d30f93f"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.21",
+                "phpunit/phpunit": "^10.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Sahapranta\\LaravelRoadmap\\LaravelRoadmapServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sahapranta\\LaravelRoadmap\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Sahapranta\\LaravelRoadmap\\Tests\\": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pranta Saha",
+                    "email": "pranta1204@gmail.com",
+                    "homepage": "https://github.com/sahapranta/laravel-roadmap"
+                }
+            ],
+            "description": "A simple package for integrating roadmap for your laravel application.",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "symfony/console",
